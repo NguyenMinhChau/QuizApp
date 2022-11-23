@@ -21,7 +21,7 @@ questions.map((question, index) => {
                 <i class="${question.icon}"></i>
             </div>
             <div class="select-topic__body__item__text">
-                <h2>${question.topic}</h2>
+                <h2 title='${question.topic}'>${question.topic}</h2>
                 <p title='${question.description}'>${question.description}</p>
             </div>
             <div class="start_btn">

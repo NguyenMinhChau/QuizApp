@@ -66,6 +66,15 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 
+.select-topic__body__item__text h2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
 .select-topic__body__item__text p {
     margin-bottom: 8px;
     display: -webkit-box;
